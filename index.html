@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>dianochka</title>
+    <title>progdidi portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/progdidi-website-favicon-black.png" type="image/x-icon">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
@@ -15,7 +16,9 @@
     <header class="header">
         <div class="container">
             <div class="header__inner">
-                <a href="#" class="header__logo">Freelancer</a>
+                <a href="#" class="header__logo"> 
+                    <img src="images/logo-white.svg" alt="" class="header__logo-img">
+                </a>
                 
                 <nav class="menu">
                     <button class="menu__btn">
@@ -32,7 +35,7 @@
 
                 <div class="languages">
                     <!-- <button class="languages-btn">RU/ENG</button> -->
-                    <select name="" id="" class="languages-change">
+                    <select class="languages-change">
                         <option value="eng">ENG</option>
                         <option value="ru">RU</option>
                     </select>
@@ -51,7 +54,7 @@
                     <p class="promo__info-descr lng-descr">I am starting frontend-developer and i will be glad to help you to make great website </p>
                     <div class="promo__info-buttons">
                         <a href="#contacts" class="promo__info-btn contact">Contact me</a>
-                        <a href="helpers/example.pdf" download class="promo__info-btn cv">Download CV</a>
+                        <a href="helpers/resume.pdf" download class="promo__info-btn cv">Download CV</a>
                     </div>
                 </div>
                 <div class="promo__visual">
@@ -108,80 +111,140 @@
         </div>
     </section>
 
-    
     <section id="works" class="works">
         <div class="container">
             <h3 class="section__title works__title lng-menu-works">My works</h3>
 
             <div class="works__inner">
-                <div class="works__item wow animate__animated data-wow-duration="2s" data-wow-delay="0.4s"">
-                    <img src="images/works/calculator.jpg" alt="calc" class="works__item-img">
-                    <h5 class="works__item-title">Calculator</h5>
-                    <p class="works__item-decr">Responsive HTML/CSS layout for landing page for front-end developer. HTML5, CSS3 (SCSS)</p>
+                <div class="works__item wow animate__animated data-wow-duration="3s" data-wow-delay="0.5s"">
+                    <div class="slider">
+                        <div class="slider-container">
+                            <div class="slide">
+                                <img src="images/works/coffeeshop.jpg" alt="calc" class="works__item-img slide-img">
+                            </div>
+                            <div class="slide">
+                                <img src="images/works/coffeeshop.jpg" alt="calc" class="works__item-img slide-img">
+                            </div>
+                            <div class="slide">
+                                <img src="images/works/coffeeshop.jpg" alt="calc" class="works__item-img slide-img">
+                            </div>
+                        </div>
+                        <div class="button-container">
+                            <button class="prevBtn"><</button>
+                            <button class="nextBtn">></button>
+                        </div>
+                    </div>
+                    <h5 class="works__item-title">Coffeshop Website</h5>
+                    <p class="works__item-decr lng-coffeshop">Responsive landing page for a coffee shop, made using HTML, CCSS, Javascript. Compiled via Gulp</p>
 
                     <div class="works__item-buttons">
-                        <a href="#" class="works__item-link">visit</a>
+                        <a href="https://progdidi.github.io/projects/coffeshop/" class="works__item-link lng-visit" target="_blank">visit</a>
+                        <a href="https://github.com/progdidi/coffeshop" class="works__item-link">github</a>
+                    </div>
+                </div>
+                <div class="works__item wow animate__animated data-wow-duration="3s" data-wow-delay="0.8s"">
+                    <div class="slider">
+                        <div class="slider-container">
+                            <div class="slide">
+                                <img src="images/works/gentlekiss.jpg" alt="calc" class="works__item-img slide-img">
+                            </div>
+                            <div class="slide">
+                                <img src="images/works/gentlekiss.jpg" alt="calc" class="works__item-img slide-img">
+                            </div>
+                            <div class="slide">
+                                <img src="images/works/gentlekiss.jpg" alt="calc" class="works__item-img slide-img">
+                            </div>
+                        </div>
+                        <div class="button-container">
+                            <button class="prevBtn"><</button>
+                            <button class="nextBtn">></button>
+                        </div>
+                    </div>
+                    <h5 class="works__item-title">Website for copywrighter</h5>
+                    <p class="works__item-decr lng-gentlekiss">Responsive landing page for a copywrighter, made using HTML, SCSS, Javascript. Compiled via Gulp </p>
+
+                    <div class="works__item-buttons">
+                        <a href="https://progdidi.github.io/projects/gentlekiss/" class="works__item-link lng-visit" target="_blank">visit</a>
                         <a href="#" class="works__item-link">github</a>
                     </div>
                 </div>
-                <div class="works__item wow animate__animated data-wow-duration="2s" data-wow-delay="0.5s"">
-                    <img src="images/works/coffeeshop.jpg" alt="calc" class="works__item-img">
-                    <h5 class="works__item-title">Calculator</h5>
-                    <p class="works__item-decr">Responsive HTML/CSS layout for landing page for front-end developer. HTML5, CSS3 (SCSS)</p>
+                <div class="works__item wow animate__animated data-wow-duration="3s" data-wow-delay="0.9s"">
+                    <div class="slider">
+                        <div class="slider-container">
+                            <div class="slide">
+                                <img src="images/works/meditation.jpg" alt="calc" class="works__item-img slide-img">
+                            </div>
+                            <div class="slide">
+                                <img src="images/works/meditation.jpg" alt="calc" class="works__item-img slide-img">
+                            </div>
+                            <div class="slide">
+                                <img src="images/works/meditation.jpg" alt="calc" class="works__item-img slide-img">
+                            </div>
+                        </div>
+                        <div class="button-container">
+                            <button class="prevBtn"><</button>
+                            <button class="nextBtn">></button>
+                        </div>
+                    </div>
+                    <h5 class="works__item-title">Website about meditation</h5>
+                    <p class="works__item-decr lng-meditation">Responsive landing page about meditation, made using HTML, SCSS, Javascript. Compiled via Gulp </p>
 
                     <div class="works__item-buttons">
-                        <a href="#" class="works__item-link">visit</a>
+                        <a href="https://progdidi.github.io/projects/meditation/" class="works__item-link lng-visit" target="_blank">visit</a>
                         <a href="#" class="works__item-link">github</a>
                     </div>
                 </div>
-                <div class="works__item wow animate__animated data-wow-duration="2s" data-wow-delay="0.6s"">
-                    <img src="images/works/domstroy.jpg" alt="calc" class="works__item-img">
-                    <h5 class="works__item-title">Calculator</h5>
-                    <p class="works__item-decr">Responsive HTML/CSS layout for landing page for front-end developer. HTML5, CSS3 (SCSS)</p>
+                <div class="works__item wow animate__animated data-wow-duration="3s" data-wow-delay="1.0s"">
+                    <div class="slider">
+                        <div class="slider-container">
+                            <div class="slide">
+                                <img src="images/works/organik.jpg" alt="calc" class="works__item-img slide-img">
+                            </div>
+                            <div class="slide">
+                                <img src="images/works/organik.jpg" alt="calc" class="works__item-img slide-img">
+                            </div>
+                            <div class="slide">
+                                <img src="images/works/organik.jpg" alt="calc" class="works__item-img slide-img">
+                            </div>
+                        </div>
+                        <div class="button-container">
+                            <button class="prevBtn"><</button>
+                            <button class="nextBtn">></button>
+                        </div>
+                    </div>
+                    <h5 class="works__item-title">Organik shop Website</h5>
+                    <p class="works__item-decr lng-organik">React manypage website for shop of organik projects</p>
 
                     <div class="works__item-buttons">
-                        <a href="#" class="works__item-link">visit</a>
-                        <a href="#" class="works__item-link">github</a>
+                        <a href="https://progdidi.github.io/projects/organik/" class="works__item-link lng-visit" target="_blank">visit</a>
+                        <a href="https://github.com/progdidi/organik" class="works__item-link">github</a>
                     </div>
                 </div>
-                <div class="works__item wow animate__animated data-wow-duration="2s" data-wow-delay="0.8s"">
-                    <img src="images/works/gentlekiss.jpg" alt="calc" class="works__item-img">
-                    <h5 class="works__item-title">Calculator</h5>
-                    <p class="works__item-decr">Responsive HTML/CSS layout for landing page for front-end developer. HTML5, CSS3 (SCSS)</p>
-
-                    <div class="works__item-buttons">
-                        <a href="#" class="works__item-link">visit</a>
-                        <a href="#" class="works__item-link">github</a>
+                <div class="works__item wow animate__animated data-wow-duration="3s" data-wow-delay="1.0s"">
+                    <div class="slider">
+                        <div class="slider-container">
+                            <div class="slide">
+                                <img src="images/works/portfolio.jpg" alt="calc" class="works__item-img slide-img">
+                            </div>
+                            <div class="slide">
+                                <img src="images/works/portfolio2.jpg" alt="calc" class="works__item-img slide-img">
+                            </div>
+                            <div class="slide">
+                                <img src="images/works/portfolio.jpg" alt="calc" class="works__item-img slide-img">
+                            </div>
+                        </div>
+                        <div class="button-container">
+                            <button class="prevBtn"><</button>
+                            <button class="nextBtn">></button>
+                        </div>
                     </div>
-                </div>
-                <div class="works__item wow animate__animated data-wow-duration="2s" data-wow-delay="0.9s"">
-                    <img src="images/works/meditation.jpg" alt="calc" class="works__item-img">
-                    <h5 class="works__item-title">Calculator</h5>
-                    <p class="works__item-decr">Responsive HTML/CSS layout for landing page for front-end developer. HTML5, CSS3 (SCSS)</p>
-
-                    <div class="works__item-buttons">
-                        <a href="#" class="works__item-link">visit</a>
-                        <a href="#" class="works__item-link">github</a>
-                    </div>
-                </div>
-                <div class="works__item wow animate__animated data-wow-duration="2s" data-wow-delay="1.0s"">
-                    <img src="images/works/greenshop.jpg" alt="calc" class="works__item-img">
-                    <h5 class="works__item-title">Calculator</h5>
-                    <p class="works__item-decr">Responsive HTML/CSS layout for landing page for front-end developer. HTML5, CSS3 (SCSS)</p>
-
-                    <div class="works__item-buttons">
-                        <a href="#" class="works__item-link">visit</a>
-                        <a href="#" class="works__item-link">github</a>
-                    </div>
-                </div>
-                <div class="works__item wow animate__animated data-wow-duration="2s" data-wow-delay="1.0s"">
-                    <img src="images/works/portfolio.jpg" alt="calc" class="works__item-img">
+                    
                     <h5 class="works__item-title">My portfolio</h5>
-                    <p class="works__item-decr">Responsive HTML/CSS layout for landing page for front-end developer. HTML5, CSS3 (SCSS)</p>
+                    <p class="works__item-decr lng-portfolio">Responsive multilanguage portfolio landing page , made using HTML, SCSS, Javascript. Compiled via Gulp</p>
 
                     <div class="works__item-buttons">
-                        <a href="#" class="works__item-link">visit</a>
-                        <a href="#" class="works__item-link">github</a>
+                        <a href="#" class="works__item-link lng-visit" >visit</a>
+                        <a href="https://github.com/progdidi/portfolio" class="works__item-link">github</a>
                     </div>
                 </div>
               </div>
@@ -199,7 +262,7 @@
                     <p class="contacts__description-telegram">my telegram<a href="" class="contacts__description-link"></a></p>
                     
                 </div>
-                <form action="" class="contacts__form">
+                <form action="helpers/send.php" method="POST" class="contacts__form">
                     <h6 class="contacts__form-title section__subtitle">Send me a message</h6>
                     <input type="text" class="contacts__form-input" placeholder="Your name">
                     <input type="mail" class="contacts__form-input" placeholder="Email">
@@ -229,7 +292,7 @@
                     <li class="social__list-item"><a href="https://www.linkedin.com/in/progdidi/" class="social__list-link" target="_blank"><img src="images/social/linkedin.svg" alt="linkedin" class="social__list-img"></a></li>
                     <li class="social__list-item"><a href="https://www.instagram.com/smetankihochesh/" class="social__list-link" target="_blank"><img src="images/social/instagram.svg" alt="instagram" class="social__list-img"></a></li>
                     <li class="social__list-item"><a href="" class="social__list-link" target="_blank"><img src="images/social/whatsapp.svg" alt="whatsapp" class="social__list-img"></a></li>
-                    <li class="social__list-item"><a href="" class="social__list-link" target="_blank"><img src="images/social/telegram.svg" alt="telegram" class="social__list-img"></a></li>
+                    <li class="social__list-item"><a href="t-do.ru/lifehackerru/" class="social__list-link" target="_blank"><img src="images/social/telegram.svg" alt="telegram" class="social__list-img"></a></li>
                 </ul>
             </div>
         </div>
