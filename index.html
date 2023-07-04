@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="icon" href="images/progdidi-website-favicon-black.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
@@ -34,11 +35,19 @@
                 </nav>
 
                 <div class="languages">
-                    <!-- <button class="languages-btn">RU/ENG</button> -->
-                    <select class="languages-change">
-                        <option value="eng">ENG</option>
-                        <option value="ru">RU</option>
-                    </select>
+
+                    <div id="select" class="languages-select">
+                        <div class="languages-select__input">
+                            <span>ENG</span>
+                            <i class="fa fa-angle-down" aria-hidden="true"></i> 
+                        </div>
+                        <div class="languages-select__dropdown">
+                            <ul class="languages-select__list">
+                                <li class="languages-select__list-item">ENG</li>
+                                <li class="languages-select__list-item">RU</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>           
 
@@ -123,10 +132,19 @@
                                 <img src="images/works/coffeeshop.jpg" alt="calc" class="works__item-img slide-img">
                             </div>
                             <div class="slide">
-                                <img src="images/works/coffeeshop.jpg" alt="calc" class="works__item-img slide-img">
+                                <img src="images/works/coffeeshop2.jpg" alt="calc" class="works__item-img slide-img">
                             </div>
                             <div class="slide">
-                                <img src="images/works/coffeeshop.jpg" alt="calc" class="works__item-img slide-img">
+                                <img src="images/works/coffeeshop3.jpg" alt="calc" class="works__item-img slide-img">
+                            </div>
+                            <div class="slide">
+                                <img src="images/works/coffeeshop4.jpg" alt="calc" class="works__item-img slide-img">
+                            </div>
+                            <div class="slide">
+                                <img src="images/works/coffeeshop5.jpg" alt="calc" class="works__item-img slide-img">
+                            </div>
+                            <div class="slide">
+                                <img src="images/works/coffeeshop6.jpg" alt="calc" class="works__item-img slide-img">
                             </div>
                         </div>
                         <div class="button-container">
@@ -139,7 +157,7 @@
 
                     <div class="works__item-buttons">
                         <a href="https://progdidi.github.io/projects/coffeshop/" class="works__item-link lng-visit" target="_blank">visit</a>
-                        <a href="https://github.com/progdidi/coffeshop" class="works__item-link">github</a>
+                        <a href="https://github.com/progdidi/coffeshop" class="works__item-link" target="_blank">github</a>
                     </div>
                 </div>
                 <div class="works__item wow animate__animated data-wow-duration="3s" data-wow-delay="0.8s"">
@@ -165,7 +183,7 @@
 
                     <div class="works__item-buttons">
                         <a href="https://progdidi.github.io/projects/gentlekiss/" class="works__item-link lng-visit" target="_blank">visit</a>
-                        <a href="#" class="works__item-link">github</a>
+                        <a href="https://github.com/progdidi/gentlekiss" class="works__item-link" target="_blank">github</a>
                     </div>
                 </div>
                 <div class="works__item wow animate__animated data-wow-duration="3s" data-wow-delay="0.9s"">
@@ -175,10 +193,25 @@
                                 <img src="images/works/meditation.jpg" alt="calc" class="works__item-img slide-img">
                             </div>
                             <div class="slide">
-                                <img src="images/works/meditation.jpg" alt="calc" class="works__item-img slide-img">
+                                <img src="images/works/meditation2.jpg" alt="calc" class="works__item-img slide-img">
                             </div>
                             <div class="slide">
-                                <img src="images/works/meditation.jpg" alt="calc" class="works__item-img slide-img">
+                                <img src="images/works/meditation3.jpg" alt="calc" class="works__item-img slide-img">
+                            </div>
+                            <div class="slide">
+                                <img src="images/works/meditation4.jpg" alt="calc" class="works__item-img slide-img">
+                            </div>
+                            <div class="slide">
+                                <img src="images/works/meditation5.jpg" alt="calc" class="works__item-img slide-img">
+                            </div>
+                            <div class="slide">
+                                <img src="images/works/meditation6.jpg" alt="calc" class="works__item-img slide-img">
+                            </div>
+                            <div class="slide">
+                                <img src="images/works/meditation7.jpg" alt="calc" class="works__item-img slide-img">
+                            </div>
+                            <div class="slide">
+                                <img src="images/works/meditation8.jpg" alt="calc" class="works__item-img slide-img">
                             </div>
                         </div>
                         <div class="button-container">
@@ -191,7 +224,7 @@
 
                     <div class="works__item-buttons">
                         <a href="https://progdidi.github.io/projects/meditation/" class="works__item-link lng-visit" target="_blank">visit</a>
-                        <a href="#" class="works__item-link">github</a>
+                        <a href="https://github.com/progdidi/meditation" class="works__item-link" target="_blank">github</a>
                     </div>
                 </div>
                 <div class="works__item wow animate__animated data-wow-duration="3s" data-wow-delay="1.0s"">
@@ -201,10 +234,25 @@
                                 <img src="images/works/organik.jpg" alt="calc" class="works__item-img slide-img">
                             </div>
                             <div class="slide">
-                                <img src="images/works/organik.jpg" alt="calc" class="works__item-img slide-img">
+                                <img src="images/works/organik2.jpg" alt="calc" class="works__item-img slide-img">
                             </div>
                             <div class="slide">
-                                <img src="images/works/organik.jpg" alt="calc" class="works__item-img slide-img">
+                                <img src="images/works/organik3.jpg" alt="calc" class="works__item-img slide-img">
+                            </div>
+                            <div class="slide">
+                                <img src="images/works/organik4.jpg" alt="calc" class="works__item-img slide-img">
+                            </div>
+                            <div class="slide">
+                                <img src="images/works/organik5.jpg" alt="calc" class="works__item-img slide-img">
+                            </div>
+                            <div class="slide">
+                                <img src="images/works/organik6.jpg" alt="calc" class="works__item-img slide-img">
+                            </div>
+                            <div class="slide">
+                                <img src="images/works/organik7.jpg" alt="calc" class="works__item-img slide-img">
+                            </div>
+                            <div class="slide">
+                                <img src="images/works/organik8.jpg" alt="calc" class="works__item-img slide-img">
                             </div>
                         </div>
                         <div class="button-container">
@@ -216,8 +264,8 @@
                     <p class="works__item-decr lng-organik">React manypage website for shop of organik projects</p>
 
                     <div class="works__item-buttons">
-                        <a href="https://progdidi.github.io/projects/organik/" class="works__item-link lng-visit" target="_blank">visit</a>
-                        <a href="https://github.com/progdidi/organik" class="works__item-link">github</a>
+                        <a href="https://progdidi.github.io/organik/" class="works__item-link lng-visit" target="_blank">visit</a>
+                        <a href="https://github.com/progdidi/organik" class="works__item-link" target="_blank">github</a>
                     </div>
                 </div>
                 <div class="works__item wow animate__animated data-wow-duration="3s" data-wow-delay="1.0s"">
@@ -230,7 +278,13 @@
                                 <img src="images/works/portfolio2.jpg" alt="calc" class="works__item-img slide-img">
                             </div>
                             <div class="slide">
-                                <img src="images/works/portfolio.jpg" alt="calc" class="works__item-img slide-img">
+                                <img src="images/works/portfolio3.jpg" alt="calc" class="works__item-img slide-img">
+                            </div>
+                            <div class="slide">
+                                <img src="images/works/portfolio4.jpg" alt="calc" class="works__item-img slide-img">
+                            </div>
+                            <div class="slide">
+                                <img src="images/works/portfolio5.jpg" alt="calc" class="works__item-img slide-img">
                             </div>
                         </div>
                         <div class="button-container">
@@ -243,8 +297,7 @@
                     <p class="works__item-decr lng-portfolio">Responsive multilanguage portfolio landing page , made using HTML, SCSS, Javascript. Compiled via Gulp</p>
 
                     <div class="works__item-buttons">
-                        <a href="#" class="works__item-link lng-visit" >visit</a>
-                        <a href="https://github.com/progdidi/portfolio" class="works__item-link">github</a>
+                        <a href="https://github.com/progdidi/portfolio" class="works__item-link" target="_blank">github</a>
                     </div>
                 </div>
               </div>
@@ -264,9 +317,9 @@
                 </div>
                 <form action="helpers/send.php" method="POST" class="contacts__form">
                     <h6 class="contacts__form-title section__subtitle">Send me a message</h6>
-                    <input type="text" class="contacts__form-input" placeholder="Your name">
-                    <input type="mail" class="contacts__form-input" placeholder="Email">
-                    <textarea name="" id="" cols="30" rows="10" class="contacts__form-text"></textarea>
+                    <input type="text" class="contacts__form-input" placeholder="Your name" name="name">
+                    <input type="mail" class="contacts__form-input" placeholder="Email" name="email">
+                    <textarea id="" cols="30" rows="10" class="contacts__form-text" name="message"></textarea>
                     <button type="submit" class="contacts__form-btn">Send</button>
                 </form>
             </div>
@@ -291,8 +344,8 @@
                     <li class="social__list-item"><a href="https://github.com/progdidi" class="social__list-link" target="_blank"><img src="images/social/github.svg" alt="github" class="social__list-img"></a></li>
                     <li class="social__list-item"><a href="https://www.linkedin.com/in/progdidi/" class="social__list-link" target="_blank"><img src="images/social/linkedin.svg" alt="linkedin" class="social__list-img"></a></li>
                     <li class="social__list-item"><a href="https://www.instagram.com/smetankihochesh/" class="social__list-link" target="_blank"><img src="images/social/instagram.svg" alt="instagram" class="social__list-img"></a></li>
-                    <li class="social__list-item"><a href="" class="social__list-link" target="_blank"><img src="images/social/whatsapp.svg" alt="whatsapp" class="social__list-img"></a></li>
-                    <li class="social__list-item"><a href="t-do.ru/lifehackerru/" class="social__list-link" target="_blank"><img src="images/social/telegram.svg" alt="telegram" class="social__list-img"></a></li>
+                    <li class="social__list-item"><a href="https://wa.me/48696617119" class="social__list-link" target="_blank"><img src="images/social/whatsapp.svg" alt="whatsapp" class="social__list-img"></a></li>
+                    <li class="social__list-item"><a href="https://t.me/progdidi" class="social__list-link" target="_blank"><img src="images/social/telegram.svg" alt="telegram" class="social__list-img"></a></li>
                 </ul>
             </div>
         </div>
